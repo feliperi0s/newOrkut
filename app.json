@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "newOrkut",
+    "slug": "newOrkut",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
