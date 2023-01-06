@@ -4,8 +4,6 @@ const styles = StyleSheet.create({
     container: {
         backgroundColor: '#EE258F',
         flex:1,
-        alignItems:'center',
-        display:'flex',
         paddingTop:84
     },
     input: {
@@ -16,21 +14,39 @@ const styles = StyleSheet.create({
         paddingVertical:10,
         paddingHorizontal:25,
         width:274,
-        margin: 5
+        margin: 5,
+        display:'flex',
+        marginHorizontal: '15%'
         
     },    
     button: {
-        width:500,
-        margin:392,
+        padding:16,
         backgroundColor:'white',
-        color:'#EE258F'
+        alignContent: 'center',
+        justifyContent: 'center',
+        width:274,
+        borderRadius:8,
+        marginHorizontal: '15%',
+        marginTop:250
+    },
+
+    buttonText:{
+        color:'#EE258F',
+        textAlign:'center',
+        fontSize: 20,
+
     },
     text : {
         color: 'white',
         fontWeight: '400',
         fontSize: 20,
         paddingBottom:40,
-        paddingTop:40
+        paddingTop:40,
+        marginHorizontal: '43%'
+
+    },
+    img: {
+        marginHorizontal: '35%'
     }
 
   });
