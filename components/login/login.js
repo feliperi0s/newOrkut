@@ -1,10 +1,12 @@
 import { View, Text, Image , Button, TextInput} from 'react-native';
 import styles from './styles'
+import Buttons from './buttons';
+
 
 export default props => {
     return (
         <View style={styles.container}>
-        <Image
+        <Image style={styles.img}
         source={require('../../images/Logo.png')}
         />
         <Text style={styles.text}>Login</Text>
@@ -17,11 +19,10 @@ export default props => {
         secureTextEntry={true}
         placeholderTextColor="white"
          />
-        <Button style={styles.button} title="Entrar"/>
+        <Buttons title="Entrar"></Buttons>
       </View>
     )
 }
-
 
 
 
